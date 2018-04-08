@@ -9,7 +9,22 @@ namespace InteractionRequestTrigger.ViewModels
         public DelegateCommand CloseDialog { get; set; }
         public DelegateCommand BypassCloseDialog { get; set; }
         public Action FinishInteraction { get; set; }
-        private ConfirmCustomerAge CapturedAge { get; set; }
+
+        private ConfirmCustomerAge _capturedAge;
+        public ConfirmCustomerAge CapturedAge
+        {
+            get
+            {
+
+                return _capturedAge;
+            }
+            set
+            {
+                _capturedAge = value;
+                RaisePropertyChanged();
+            }
+        }
+
         public INotification Notification
         {
             get

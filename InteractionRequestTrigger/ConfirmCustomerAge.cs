@@ -5,17 +5,18 @@ namespace InteractionRequestTrigger
 {
     public class ConfirmCustomerAge : ObservableConfirmation
     {
-        public DateTime? _BirthDate { get; set; }
+        private DateTime? _birthDate;
+
         [Required]
         public DateTime? BirthDate
         {
             get
             {
-                return _BirthDate;
+                return _birthDate;
             }
             set
             {
-                _BirthDate = value;
+                _birthDate = value;
                 RaisePropertyChanged();
             }
         }

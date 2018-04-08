@@ -78,7 +78,7 @@
             <DatePicker Grid.Column="1"
                         Grid.Row="6"
                         HorizontalAlignment="Stretch"
-                        SelectedDate="{Binding Notification.BirthDate, Mode=TwoWay, ValidatesOnDataErrors=True, StringFormat='dd/MM/yyyy'}"
+                        SelectedDate="{Binding CapturedAge.BirthDate, Mode=TwoWay, ValidatesOnDataErrors=True, StringFormat='dd/MM/yyyy'}"
                         DisplayDateEnd="{Binding MinBirthDate, Mode=OneWay}" />
 
 

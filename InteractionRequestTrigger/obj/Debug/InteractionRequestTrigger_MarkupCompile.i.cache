@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\WinProjects\InteractionRequestTrigger\InteractionRequestTrigger\obj\Debug\
+C:\Users\malhayek\source\repos\InteractionRequestTrigger\InteractionRequestTrigger\obj\Debug\
 InteractionRequestTrigger
 none
 false
 DEBUG;TRACE
-C:\WinProjects\InteractionRequestTrigger\InteractionRequestTrigger\App.xaml
+C:\Users\malhayek\source\repos\InteractionRequestTrigger\InteractionRequestTrigger\App.xaml
 2-1425811933
 
 15-283723759
-761457582601
+76407719360
 Views\CaptureCustomerAgeView.xaml;Views\MainWindow.xaml;
 
-False
+True
 
